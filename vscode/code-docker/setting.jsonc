@@ -17,19 +17,25 @@
 	"editor.matchBrackets": "always", // 일치하는 괄호를 하이라이팅 해줌
 	"editor.guides.highlightActiveBracketPair": true,
 	"editor.bracketPairColorization.enabled": true,
-	
+
 	"editor.stickyTabStops": true, // 스페이스를 탭문자처럼 이동시킴
 	"editor.renderLineHighlight": "all", // 현재 줄 강조 표시
 	"editor.inlineSuggest.enabled": true,
 	"editor.rulers": [80, 90, 100],
 	"files.autoSave": "off",
-
 	"explorer.sortOrder": "type",
+
 	"chat.mcp.discovery.enabled": {
 		"claude-desktop": false,
 		"windsurf": false,
 		"cursor-global": false,
 		"cursor-workspace": false
+	},
+	"github.copilot.enable": {
+		"*": false,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
 	},
 
 	"workbench.activityBar.location": "bottom", // 액티비티바 (오른쪽 패널 탭) 위치
@@ -319,7 +325,7 @@
 				"scope": [
 					"variable",
 					"variable.other",
-					"variable.parameter"
+					"variable.parameter",
 				],
 				"settings": {
 					"foreground": "#d6c8c8"
@@ -357,6 +363,17 @@
 				"scope": [
 					"support.type.property-name.json",
 					"meta.object-literal.key"
+				],
+				"settings": {
+					"foreground": "#d6c8c8"
+				}
+			},
+			{
+				"name": "Object Keys",
+				"scope": [
+					"variable.other.property",
+					"meta.object-literal.key",
+					"support.type.property-name"
 				],
 				"settings": {
 					"foreground": "#d6c8c8"
@@ -413,12 +430,26 @@
 					"foreground": "#b38ca6",
 				}
 			}
+			{
+				"name": "Enums",
+				"scope": [
+					"entity.name.enum",
+					"variable.other.enummember"
+				],
+				"settings": {
+					"foreground": "#c28498"
+				}
+			}
+			{
+				"name": "Namespace / Modules",
+				"scope": [
+					"entity.name.namespace",
+					"support.module"
+				],
+				"settings": {
+					"foreground": "#a99999"
+				}
+			}
 		]
-	},
-	"github.copilot.enable": {
-		"*": false,
-		"plaintext": false,
-		"markdown": false,
-		"scminput": false
 	},
 }
