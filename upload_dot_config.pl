@@ -1,7 +1,8 @@
 use strict;
 use warnings;
 
-print "Yaeju's Dotfile Upload\n";
+print "Yaeju's Dotfile Upload";
+print "\n\n";
 
 my $upload_config_dir = ".config";
 my $user_config_dir = $ENV{XDG_CONFIG_HOME} // "$ENV{HOME}/.config";

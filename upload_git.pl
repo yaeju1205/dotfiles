@@ -1,6 +1,9 @@
 use strict;
 use warnings;
 
+print "Yaeju's Dotfile Git Upload";
+print "\n\n";
+
 my $commit_msg = join(" ", @ARGV) || "Update Yaeju's dotfiles";
 
 system("git", "add", ".") == 0
