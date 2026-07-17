@@ -1,7 +1,6 @@
 # dotfiles
 Yaeju's dotfiles
 
-
 used niri, archlinux
 
 

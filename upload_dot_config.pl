@@ -9,6 +9,7 @@ my $user_config_dir = $ENV{XDG_CONFIG_HOME} // "$ENV{HOME}/.config";
 my @dotfiles = (
     "niri",
     "inir",
+    "nvim",
 );
 
 mkdir($upload_config_dir)
