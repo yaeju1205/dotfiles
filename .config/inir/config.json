@@ -256,7 +256,7 @@
         "typography": {
             "mainFont": "Roboto Flex",
             "monospaceFont": "JetBrainsMono Nerd Font",
-            "sizeScale": 1,
+            "sizeScale": 0.95,
             "syncWithSystem": true,
             "titleFont": "Gabarito",
             "variableAxes": {
@@ -444,14 +444,14 @@
         "wallpaperPath": "/home/yaeju/Pictures/Wallpapers/Wallpaper4.jpg",
         "wallpapersByMonitor": [
             {
-                "monitor": "DVI-D-1",
-                "path": "/home/yaeju/Pictures/Wallpapers/elaina.jpg",
+                "monitor": "HDMI-A-1",
+                "path": "/home/yaeju/Pictures/Wallpapers/elaina-wallpaper2.jpg",
                 "workspaceFirst": 1,
                 "workspaceLast": 2
             },
             {
-                "monitor": "HDMI-A-1",
-                "path": "/home/yaeju/Pictures/Wallpapers/Wallpaper4_upscayl_4x_upscayl-standard-4x.png",
+                "monitor": "DVI-D-1",
+                "path": "/home/yaeju/Pictures/Wallpapers/elaina-wallpaper.png",
                 "workspaceFirst": 1,
                 "workspaceLast": 2
             }
@@ -613,6 +613,7 @@
                 "showPausedEffect": true
             },
             "screenList": [
+                "HDMI-A-1"
             ],
             "systemMonitor": {
                 "backgroundOpacity": 0.06,
@@ -732,7 +733,7 @@
             ]
         },
         "floatStyleShadow": true,
-        "height": 34,
+        "height": 30,
         "indicators": {
             "notifications": {
                 "showUnreadCount": true
@@ -800,7 +801,7 @@
             "utilButtons": "end",
             "workspaces": "center"
         },
-        "opacity": 0.7,
+        "opacity": 0.67,
         "resources": {
             "alwaysShowCpu": true,
             "alwaysShowGpu": true,
@@ -993,7 +994,6 @@
         "iiOverview",
         "iiPolkit",
         "iiRegionSelector",
-        "iiScreenCorners",
         "iiSessionScreen",
         "iiSidebarLeft",
         "iiSidebarRight",
@@ -1203,6 +1203,7 @@
         "position": "topRight",
         "scaleOnHover": false,
         "screenList": [
+            "HDMI-A-1"
         ],
         "silent": false,
         "timeout": 3000,
@@ -1214,6 +1215,7 @@
     "osd": {
         "mediaEnabled": true,
         "screenList": [
+            "HDMI-A-1"
         ],
         "timeout": 1000
     },
@@ -1241,7 +1243,7 @@
         "scrimDim": 100
     },
     "overview": {
-        "activeScreenOnly": true,
+        "activeScreenOnly": false,
         "allAppsGrid": false,
         "allAppsGridMode": "minimal",
         "backgroundBlurEnable": true,
@@ -1446,7 +1448,7 @@
         "instantOpen": false,
         "keepLeftSidebarLoaded": true,
         "keepRightSidebarLoaded": true,
-        "layout": "default",
+        "layout": "compact",
         "openFolderOnDownload": false,
         "plugins": {
             "enable": false,

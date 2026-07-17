@@ -10,6 +10,7 @@ my $user_config_dir = $ENV{XDG_CONFIG_HOME} // "$ENV{HOME}/.config";
 my @dotfiles = (
     "niri",
     "inir",
+    "kitty",
 );
 
 mkdir($upload_config_dir)
